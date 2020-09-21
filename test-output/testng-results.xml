@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="10684" started-at="2020-09-20T18:58:13 PDT" finished-at="2020-09-20T18:58:24 PDT">
+    <groups>
+      <group name="r">
+        <method signature="LoginTest.inValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="inValidLogin" class="com.hrms.testcases.LoginTest"/>
+      </group> <!-- r -->
+    </groups>
+    <test name="Regression Test" duration-ms="10684" started-at="2020-09-20T18:58:13 PDT" finished-at="2020-09-20T18:58:24 PDT">
+      <class name="com.hrms.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="setup" is-config="true" duration-ms="2613" started-at="2020-09-20T18:58:13 PDT" finished-at="2020-09-20T18:58:16 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="inValidLogin" duration-ms="334" started-at="2020-09-20T18:58:16 PDT" data-provider="inValidCredentials" finished-at="2020-09-20T18:58:16 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hum@nhrm123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-09-20T18:58:17 PDT" finished-at="2020-09-20T18:58:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="setup" is-config="true" duration-ms="2166" started-at="2020-09-20T18:58:17 PDT" finished-at="2020-09-20T18:58:19 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="inValidLogin" duration-ms="309" started-at="2020-09-20T18:58:19 PDT" data-provider="inValidCredentials" finished-at="2020-09-20T18:58:19 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="tearDown" is-config="true" duration-ms="80" started-at="2020-09-20T18:58:20 PDT" finished-at="2020-09-20T18:58:20 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="setup" is-config="true" duration-ms="2321" started-at="2020-09-20T18:58:20 PDT" finished-at="2020-09-20T18:58:22 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="inValidLogin" duration-ms="1064" started-at="2020-09-20T18:58:22 PDT" data-provider="inValidCredentials" finished-at="2020-09-20T18:58:23 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hum@nhrm12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@528931cf]" name="tearDown" is-config="true" duration-ms="82" started-at="2020-09-20T18:58:24 PDT" finished-at="2020-09-20T18:58:24 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.LoginTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
